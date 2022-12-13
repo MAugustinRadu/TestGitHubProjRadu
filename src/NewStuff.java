@@ -3,6 +3,8 @@ public class NewStuff {
     int k;
     int v;
 
+    NewStuff (int j, int k, int v){}
+
     public void setJ(int j) {
         this.j = j;
     }
@@ -37,4 +39,13 @@ public class NewStuff {
 
     int ggg;
 
+    @Override
+    public String toString() {
+        return "NewStuff{" +
+                "j=" + j +
+                ", k=" + k +
+                ", v=" + v +
+                ", ggg=" + ggg +
+                '}';
+    }
 }
